@@ -44,4 +44,4 @@ const arrMap5 = arrMap4.map((item)=> {
     return `${item.firstName} ${item.lastname}`
 })
 
-console.log(arrMap5);
+console.log(arrMap3);
