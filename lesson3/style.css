@@ -1,0 +1,12 @@
+.button1{
+    padding:6px;
+    color: rgb(26, 21, 21);
+    background-color: rgba(0, 255, 72, 0.492);
+    border-radius: 6px;
+    border: 2px rgb(255, 0, 0) solid;
+}
+.red{
+    background-color: rebeccapurple;
+    /* color: red; */
+    padding: 20px; 
+}
