@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    margin: 5px ;
+    background-color: rgb(194, 176, 176);
+    text-align: right;
+    padding: 20px;
+    border-radius: 10px;
+}
+#logout{
+    color: rgb(35, 235, 202);
+    background: rgb(105, 105, 120);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+h1,h3{
+    text-align: center;
+}
+body{
+    background: #3c65d7;
+}
