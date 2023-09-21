@@ -15,6 +15,7 @@ signInWithEmailAndPassword(auth, email, password)
     window.location = './index.html';
   })
   .catch((error) => {
+    alert("Sai mk hoac tk");
     const errorCode = error.code;
     const errorMessage = error.message;
   });
