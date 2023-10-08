@@ -12,8 +12,9 @@ const submit = document.getElementById('submit-btn');
 const handleUpdateProfile= () =>{
     updateProfile(auth.currentUser, {
         displayName: nameProfile.value, photoURL: profilePhoto.value,
-      }).then(() => {
-       alert('update Thannh cong')
+      })
+      .then(() => {
+       alert('update Thannh cong');
        window.location = './profile.html'
       }).catch((error) => {
         alert(error.code);
