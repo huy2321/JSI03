@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #ffffff;
+    margin-left: 650px;
+    margin-top: 140px;
+}
+
+.card {
+    width: 350px;
+    background-color: #efefef;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.btn1 {
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: #000;
+    color: #aeaeae;
+    font-size: 15px
+}
+.profilebody{
+    text-align: center;
+}
