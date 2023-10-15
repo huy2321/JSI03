@@ -10,7 +10,7 @@ arr1.forEach((item)=>{
 		}
 })
 
-console.log(arr2);
+// console.log(arr2);
 //b2
 let totalBill = 0;
 const products = [
@@ -20,10 +20,10 @@ const products = [
 	{ name: 'Airpod 2', price: 100, quantity: 20 },
 ];
 products.forEach((products)=>{
-	console.log(`${products.quantity} chiếc ${products.name} giá ${products.price}$`);
+	// console.log(`${products.quantity} chiếc ${products.name} giá ${products.price}$`);
 	totalBill += products.price*products.quantity
 });
-console.log(`Tổng hóa đơn ${totalBill}$`)
+// console.log(`Tổng hóa đơn ${totalBill}$`)
 //b3
 let students = [
 	{ name: 'Alex', score: 6 },
@@ -38,4 +38,15 @@ students.forEach((student)=>{
 		highestName = student.name;
 	}
 })
-console.log(highestName)
+// console.log(highestName)
+
+const arr3 = [4,5,1,2,3,6];
+const arr4 = arr3.sort((a,b) =>{
+	return b-a;
+});
+// console.log(arr4);
+//
+const m = [1,2,3,5,6,"hh","g",80,100];
+const m1 = m.filter((item)=> typeof item=== 'number');
+const m2 = m1.map((item)=> item*item);
+console.log(m2)
